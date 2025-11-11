@@ -1,0 +1,9 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #000;
+  color: #ffe81f;
+  margin: 0;
+  padding: 0;
+}

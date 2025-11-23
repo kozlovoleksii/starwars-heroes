@@ -10,7 +10,7 @@ const HeroPage = () => {
       <button className={styles.backBtn} onClick={() => navigate(-1)}>
         ← Back
       </button>
-      <HeroGraph heroId={id} />
+      <HeroGraph heroId={id ?? ""} />
     </main>
   );
 };

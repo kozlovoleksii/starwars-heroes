@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import type { Hero } from "../../types/hero";
+import type { ListHero } from "../../types/hero";
 import styles from "./HeroCard.module.css";
 
 type HeroCardProps = {
-  hero: Hero;
+  hero: ListHero;
 };
 
-const HeroCard = ({ hero}: HeroCardProps) => {
+const HeroCard = ({ hero }: HeroCardProps) => {
   return (
     <Link to={`/hero/${hero.id}`} className={styles.link}>
       <div className={styles.card}>

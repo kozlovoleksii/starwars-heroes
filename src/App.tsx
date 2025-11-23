@@ -1,8 +1,8 @@
-import "../styles/reset.css";
-import Home from "../pages/Home/Home";
-import Heroes from "../pages/Heroes/Heroes";
-import HeroPage from "../pages/HeroPage/HeroPage";
-import NotFound from "../pages/NotFound/NotFound";
+import "./styles/reset.css";
+import Home from "./pages/Home/Home";
+import Heroes from "./pages/Heroes/Heroes";
+import HeroPage from "./pages/HeroPage/HeroPage";
+import NotFound from "./pages/NotFound/NotFound";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {

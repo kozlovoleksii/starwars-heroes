@@ -1,5 +1,5 @@
 import styles from "./GalaxyIntro.module.css";
-import Logo from "../../assets/logo-starwars.svg";
+import Logo from "../../../assets/logo-starwars.svg";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
